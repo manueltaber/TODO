@@ -1,0 +1,19 @@
+<app-header></app-header>
+<div class="todo-container">
+  <md-card>
+    <md-card-title>Are you Busy?</md-card-title>
+    <md-card-content>
+      <div>
+        <md-input class="full-width" #input placeholder="Title" align="end">
+          <md-hint align="end">{{input.characterCount}}</md-hint>
+        </md-input>
+        <md-input class="full-width" placeholder="Description" align="end"></md-input>
+      </div>
+    </md-card-content>
+    <md-card-actions>
+    <button md-button>Ok</button>
+    <button md-button>Cancel</button>
+    </md-card-actions>
+  </md-card>
+</div>
+<app-footer></app-footer>
