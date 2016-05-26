@@ -19,4 +19,4 @@ Open /src afterwards and execute these commands
 > ng serve
 ````
 
-Everything should work fine now
+Everything should work fine now (probably)
